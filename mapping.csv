@@ -11,12 +11,12 @@
 10,"Provider Shelter Requirements",
 11,"Provider Volunteer Opportunities",
 12,"Provider Website Address",Organization.Location.Service.website
-13,"Address Type",Mailing means MailAddress, Physical means Address
-14,"Address Line1","Organization.Location.(MailAddress or Addresss).street_1"
-15,"Address Line2","Organization.Location.(MailAddress or Addresss).street_2"
-16,"Address City","Organization.Location.(MailAddress or Addresss).city"
-17,"Address Province","Organization.Location.(MailAddress or Addresss).state"
-18,"Address Postal Code","Organization.Location.(MailAddress or Addresss).postal_code"
+13,"Address Type","Mailing means MailAddress, Physical means Address"
+14,"Address Line1","Organization.Location.(MailAddress|Addresss).street_1"
+15,"Address Line2","Organization.Location.(MailAddress|Addresss).street_2"
+16,"Address City","Organization.Location.(MailAddress|Addresss).city"
+17,"Address Province","Organization.Location.(MailAddress|Addresss).state"
+18,"Address Postal Code","Organization.Location.(MailAddress|Addresss).postal_code"
 19,"Address County",
 20,"Address Is Primary Address",
 21,"Contact Name",Organization.Contact.name
