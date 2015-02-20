@@ -1,10 +1,10 @@
 0,"Provider",Organization.Location.Service.alternate_name
-1,"Provider ID",
+1,"Provider ID",Organization.Id
 2,"Provider Name",Organization.Location.Service.name
 3,"Provider Parent Provider",Organization.(name & description)
 4,"Provider Description",Organization.Location.Service.description
 5,"Provider Eligibility",Organization.Location.Service.eligibility
-6,"Provider Hours",
+6,"Provider Hours",Organization.Location.regular_schedule
 7,"Provider Intake / Application Process",Organization.Location.Service.how_to_apply
 8,"Provider Languages",Organization.Location.Service.languages
 9,"Provider Program Fees",Organization.Location.Service.fees
@@ -30,4 +30,4 @@
 29,"Service Code Description",Organization.Location.Service.Taxonomy.name
 30,"Service Code Type Service",Organization.Location.Service.Taxonomy.parent_name
 31,"Service Code Out Of Resource",
-32,"Geography Served by State, State Name",
+32,"Geography Served by State, State Name",Organization.Location.Service.service_area
